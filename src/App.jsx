@@ -5,11 +5,13 @@ import {
   createRoutesFromElements,
   Route,
   RouterProvider,
+  useNavigate,
 } from "react-router-dom";
 import Home from "./pages/Home";
 import Contect from "./pages/Contect";
 import Product from "./pages/Product";
 import RootLayout from "./Layout/RootLayout";
+
 
 function App() {
   const Router = createBrowserRouter(
